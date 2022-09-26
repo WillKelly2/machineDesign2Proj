@@ -27,7 +27,7 @@ shaft3y.add_point_load(3, -37.14)
 shaft3y.solve()
 
 shaft3y.plot()
-plt.savefig("pdfs/shaft3y.pdf")
+plt.savefig("pdfs/shaft3y.png")
 #plt.title("Deflection in the y on shaft1")
 
 #plt.show(block=True)
@@ -53,7 +53,7 @@ shaft3z.add_point_load(3, -83.10)
 shaft3z.solve()
 
 shaft3z.plot()
-plt.savefig("pdfs/shaft3z.pdf")
+plt.savefig("pdfs/shaft3z.png")
 #plt.title("Deflection in the z on shaft1")
 #plt.show(block=True)
 

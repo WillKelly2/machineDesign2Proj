@@ -30,7 +30,7 @@ shaft1y.solve()
 
 
 shaft1y.plot()
-plt.savefig("pdfs/shaft1y.pdf")
+plt.savefig("pdfs/shaft1y.png")
 #plt.title("Deflection in the y on shaft1")
 
 #plt.show(block=True)
@@ -60,4 +60,4 @@ shaft1z.plot()
 #plt.title("Deflection in the z on shaft1")
 #plt.show(block=True)
 
-plt.savefig("pdfs/shaft1z.pdf")
+plt.savefig("pdfs/shaft1z.png")

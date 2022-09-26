@@ -7,3 +7,4 @@ echo "# Shaft 3 functions and values" >> singularityFNs.txt
 python shaft3Design.py >> singularityFNs.txt
 echo "# Shaft 4 functions and values" >> singularityFNs.txt
 python shaft4Design.py >> singularityFNs.txt
+cp -rf pdfs /mnt/c/Users/willi/Documents/pdfs
