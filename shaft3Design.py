@@ -33,6 +33,7 @@ plt.savefig("pdfs/shaft3y.pdf")
 #plt.show(block=True)
 
 print("Begin Z stresses")
+plt.clf()
 shaft3z = beam(L)
 # shaft3z.set_young(x_start, x_end, value)
 shaft3z.set_young(0, L, E)
