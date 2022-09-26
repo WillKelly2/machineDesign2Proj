@@ -27,9 +27,10 @@ shaft3y.add_point_load(3, -37.14)
 shaft3y.solve()
 
 shaft3y.plot()
+plt.savefig("pdfs/shaft3y.pdf")
 #plt.title("Deflection in the y on shaft1")
 
-plt.show(block=True)
+#plt.show(block=True)
 
 print("Begin Z stresses")
 shaft3z = beam(L)
@@ -51,7 +52,8 @@ shaft3z.add_point_load(3, -83.10)
 shaft3z.solve()
 
 shaft3z.plot()
+plt.savefig("pdfs/shaft3z.pdf")
 #plt.title("Deflection in the z on shaft1")
-plt.show(block=True)
+#plt.show(block=True)
 
 #plt.savefig("beam.pdf")

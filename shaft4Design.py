@@ -27,6 +27,7 @@ shaft4y.add_point_load(3,49.98)
 shaft4y.solve()
 
 shaft4y.plot()
+plt.savefig("pdfs/shaft4y.pdf")
 #plt.title("Deflection in the y on shaft1")
 
 #plt.show(block=True)
@@ -51,6 +52,7 @@ shaft4z.add_point_load(3, -53.44)
 shaft4z.solve()
 
 shaft4z.plot()
+plt.savefig("pdfs/shaft4z.pdf")
 #plt.title("Deflection in the z on shaft1")
 #plt.show(block=True)
 
