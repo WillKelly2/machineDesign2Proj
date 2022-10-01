@@ -2,13 +2,13 @@ from symbeam import beam
 #from sympy.abc import L, E, I, P, M, q, x
 import matplotlib.pyplot as plt
 import numpy as np
-
+import sys
 
 E = 30000000
-R = .5
-I = np.pi/2*np.power(R,4)
+R = 1
+I = np.pi/4*np.power(R,4)
 L = 12
-print(I)
+
 
 shaft4y = beam(L)
 # shaft4y.set_young(x_start, x_end, value)
